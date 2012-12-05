@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/heart4"
+    
+    >
+    <LinearLayout 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/connectLayout" 
+    	android:layout_width="match_parent">
+        <Button android:text="连接" android:id="@+id/connecBut" android:layout_height="wrap_content" android:layout_width="70dip"></Button>
+        <TextView android:text="TextView" android:id="@+id/connectTipView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+	<TextView 
+		android:textColor="@color/black"
+    	android:text="历史数据" 
+    	android:id="@+id/textView1"
+    	android:textSize="20dip" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+	    android:layout_gravity="center_horizontal">
+    </TextView> 
+    <FrameLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:scrollbars="horizontal"
+    	android:id="@+id/graphFrameLayout"></FrameLayout>
+</LinearLayout>
