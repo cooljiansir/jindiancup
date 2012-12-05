@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:scrollbars="vertical" 
+  android:orientation="vertical"
+  android:background="@drawable/heart4">
+    <LinearLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/linearLayout1" 
+    	android:orientation="vertical">
+   	    <TextView android:text="heart" 
+	    	android:textSize="18dip"
+	    	android:id="@+id/heartRateView" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center_horizontal"
+	    	android:textColor="@color/black"
+	    	android:layout_gravity="center_horizontal">
+	    </TextView>
+	    <TextView android:text="收缩压" 
+	    	android:textSize="18dip"
+	    	android:id="@+id/ShouPressView" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center_horizontal"
+	    	android:textColor="@color/black"
+	    	android:layout_gravity="center_horizontal">
+	    </TextView>
+	    <TextView android:text="舒张压" 
+	    	android:textSize="18dip"
+	    	android:id="@+id/ShuPressView" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center_horizontal"
+	    	android:textColor="@color/black"
+	    	android:layout_gravity="center_horizontal">
+	    </TextView>
+    </LinearLayout>
+        <LinearLayout 
+        	android:id="@+id/sendLinearLayout" 
+        	android:layout_width="match_parent" 
+        	android:layout_height="wrap_content"
+        	android:gravity="center_horizontal"
+	    	android:layout_gravity="center_horizontal"> 
+        	<Button 
+        		android:text="发送短信"
+        		android:textSize="15dip" 
+        		android:id="@+id/sendBut" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content">
+        	</Button>
+        	<TextView 
+        		android:textColor="@color/black"
+        		android:text="以本次测量结果发送短信" 
+        		android:textSize="15dip"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:id="@+id/textView2">
+        	</TextView>
+  	    </LinearLayout>
+  	     <TextView
+        		android:text=""
+        		android:textSize="20dip" 
+        		android:textColor="@color/black"
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:id="@+id/resultTipView">
+        </TextView>
+ 		<ScrollView
+			xmlns:android="http://schemas.android.com/apk/res/android"
+		  	android:layout_width="match_parent"
+  			android:layout_height="match_parent"
+  			>
+        <TextView
+        		android:scrollbars="vertical"
+        		android:textColor="@color/black"
+        		android:text="        高血压饮食建议5条：
+\n  1、多吃低脂肪、优质蛋白质食物，对增加血管弹性、防止恶性高血压并发症的发生具有积极作用，多吃优质蛋白质食品如豆类、鱼类、家禽类等，可以帮助改善高血压患者血管的通透性。恶性高血压患者每日脂肪摄入不能超过50g
+
+\n  2、多吃绿色蔬菜和水果C、胡萝卜素、纤维素等多种营养物质，能改善心肌功能和血循环，帮助体内多余的胆固醇和脂肪的排出。
+
+\n  3、多吃含钙食物，还有降压功效。恶性高血压患者应多吃奶、豆类、海产品、绿色蔬菜等含钙较多的食物。
+
+\n  4、多吃粗粮、薯类等作为主食，如玉米、燕麦、荞麦、小米等，这些粗粮含有丰富膳食纤维，能促进肠胃蠕动，排除多余的胆固醇。
+
+\n  5、饮食规律，少吃多餐，七八成饱就可以，减轻胃肠道的复旦，保持体重，有利于控制血压。高血压患者要少吃多餐，定时定量吃饭，养成良好的习惯。
+
+
+\n       高血压睡眠建议5条：
+\n  1、中午小睡。一般以半小时至一小时为宜。无条件平卧入睡时，可仰坐在沙发上闭目养神，使全身放松。
+
+\n  2、晚餐宜少。晚餐应清淡，吃易消化的食物，进食量要少。还要注意不要因害怕夜间多尿而不敢饮水或喝粥，以免发生血液粘稠而导致血栓形成。
+
+\n  3、睡前少玩。晚上下棋、打麻将或打扑克一般以1~2小时为宜，不可过于认真或激动。看电视也不宜时间过长，不选内容过于刺激的节目。
+
+\n  4、热水泡脚。养成睡前用热水泡脚的习惯，然后按摩双足心，促进血液循环。
+
+\n  5、缓慢起床。造成醒来，应先在床上仰卧，活动一下四肢和头颈部，伸一下懒腰，使肢体肌肉和血管平滑肌恢复适当张力，以适应起床时的体位变化。然后慢慢坐起，稍活动几次上肢再下床，以防止血压发生大的波动。
+
+
+\n       高血压锻炼建议：
+一般来说，适宜于高血压患者的锻炼方法有散步、体操、慢跑、太极拳等。
+\n  1、散步。散步对体质较弱、比较肥胖的高血压患者是一中比较好的锻炼方法。散步是一种全身性，周期性运动，对神经、呼吸、血液循环、消化、肌肉特别是下肢和腹背肌都有一定的锻炼作用。散步的距离和时间可以根据散步时候的自我感觉和脉搏来决定。比如，散步距离1000米到3000米，时间是15分钟到30分钟左右，脉搏以不超过每分钟80~90次即可。散步后感觉轻快，每天可进行1-2次；也可灵活掌控，有人每次60分钟，每天一次，有人每次30分钟，每天两次。
+
+\n  2、体操。体操使全身主要的肌肉和关节都得到锻炼，动作要缓慢，有节奏，配合呼吸，最好联系专门为高血压患者编排的体操，如高血压病医疗体操。
+
+\n  3、慢跑的运动量比散步大，适合体力较好的患者，可以每天跑一次，每次21-30分钟。
+
+\n  4、太极拳是我国传统体育断粮形式之一。适宜于多数高血压患者。练太极拳时由于动作柔和、肌肉放松，思绪宁静而能诱导降压，高血压患者打完一套简化太极拳后，收缩压可下降1.33-2.7千帕(10-20mm汞柱)。长期联系太极拳的老人静息时收缩压的平均值约比同龄组的老人低2.7千帕（20mm汞柱）。
+
+\n  5、气功。气功治疗在我国应用比较普遍，具体方法可参考网上资料。
+
+
+\n  总而言之，高血压患者进行体育锻炼要持之以恒，做操时不要鼓劲憋气，不要做举重、搬重等紧张用力的运动，头部不要垂下低于心脏水平。如果运动后头晕、胸闷、气短、不想吃东西、睡眠不好、疲乏。说明运动量过大了，要注意调整。一般运动后马上测量脉搏每分钟不超过110次为宜。有下列情况者禁忌进行锻炼。  ——严重心律失常、心动过速、脑血管痉挛、明显的心绞痛等。"
+        		android:textSize="20dip" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content"> 
+        </TextView>
+        </ScrollView>
+</LinearLayout>
